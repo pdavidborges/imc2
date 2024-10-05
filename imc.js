@@ -15,7 +15,7 @@ function calcularIMC(){
         var imc = (peso.value / (altura.value*altura.value)).toFixed(2);
 
         if(imc < 18.5){
-            alert(`IMC: ${imc } - Abaixo do peso`);
+            alert(`IMC: ${imc } - Você está abaixo do peso`);
         }
 
         else if(imc <= 24.9){
